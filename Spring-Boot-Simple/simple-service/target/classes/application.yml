@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active: local
+
+#dubbo:
+#  application:
+#    name: simple-provider
+#  registry:
+#    protocol: zookeeper
+#    address: 127.0.0.1:2181
+#  protocol:
+#    name: dubbo
+#    port: 20880
+#
+#message:
+#  data:
+#    name: testName
+#    desc: ${message.data.name} is a very good Boy!
+#
+#多环境分割符
+#---
+#spring:
+#  profiles: local
+#
+#
+#---
+#spring:
+#  profiles: test

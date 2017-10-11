@@ -1,0 +1,16 @@
+spring:
+  profiles: local
+
+dubbo:
+  application:
+    name: simple-provider
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
+
+message:
+  data:
+    name: testName
