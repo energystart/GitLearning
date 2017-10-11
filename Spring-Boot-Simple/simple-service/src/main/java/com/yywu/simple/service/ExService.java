@@ -16,7 +16,7 @@ public class ExService implements IExService {
 	
 	public String sayHello(String hello) {
 		System.out.println("ExService.sayHello:"+hello);
-		System.out.println(name);
+		System.out.println(name);//
 		return hello;
 	}
 
